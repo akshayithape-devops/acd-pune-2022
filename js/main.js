@@ -3,6 +3,15 @@
  	easing: 'slide'
  });
 
+ 
+
+ $(document).ready(function() {
+	$('.popup-youtube').magnificPopup({
+    type: 'iframe'
+  });
+});
+
+
 (function($) {
 
 	"use strict";
